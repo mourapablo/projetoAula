@@ -1,0 +1,83 @@
+body{
+    background-color: bisque;
+    width: 100%;
+    overflow-x: hidden;
+}
+header{
+    background-color: rgb(238, 230, 141);
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    
+
+   
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+    
+   
+    
+}
+header ul li a{
+   padding: 10px;
+   text-decoration: none;
+   margin-right: 20px;
+ 
+}
+.login{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    margin:10px auto 10px;
+    box-shadow: 2px  px rgb(39, 39, 130);
+   
+    
+}
+
+
+#nome{
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+#senha{
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+#botao{
+  
+    height: 30px;
+    width: 250px;
+    background-color: rgb(45, 28, 93);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    
+
+}
+#cadastro2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+    font-size: 20px;
+}
+footer{
+    background-color: rgb(238, 230, 141);
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: -20px;
+}
