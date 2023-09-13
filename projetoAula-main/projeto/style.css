@@ -1,94 +1,113 @@
-body{
+body {
     background-color: rgb(180, 177, 174);
-    width: 100%;
+    width: 100vw;
     overflow-x: hidden;
     margin: 0;
 }
-header{
+
+h1 {
+    font-size: 3vw;
+}
+
+header {
     background-color: transparent;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: flex-end;
-    
 
-   
+
+
 }
-header ul{
+
+header ul {
     list-style: none;
     display: flex;
-    margin-right: 30px;
-    
-   
-    
+    margin-right: 2.5vw;
+
 }
-header ul li a{
-   padding: 10px;
-   text-decoration: none;
-   margin-right: 20px;
- 
+
+header ul li a {
+    padding: 1vw;
+    text-decoration: none;
+    margin-right: 1.5vw;
+    font-size: 1.6vw;
+
 }
-.login{
+
+.login {
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: white; 
-    width: 30%;
-    height: 450px;
+    background-color: white;
+    width: 34vw;
+    height: 33vw;
     text-align: center;
     margin: 0;
-    padding: 10px;
-    margin:10px auto 10px;
-    box-shadow: 10PX 10PX 10PX 5PX black;
-    
-   
-    
+    padding: 1vw;
+    margin: 1vw auto 1vw;
+    box-shadow: 1vw 1vw 1vw 0.5vw black;
+    font-size: 1.5vw;
 }
 
 
-#nome{
-    width: 80%;
-    height: 50px;
-   
-    
+
+
+#nome {
+    width: 25vw;
+    height: 4vw;
+    font-size: 1vw;
+    margin-right: 0.8vw;
+
+
+
 }
-#senha{
-    width: 80%;
-    height: 50px;
- 
-    
+
+#senha {
+    width: 25vw;
+    height: 4vw;
+    font-size: 1vw;
+    margin-left: 2.5vw;
+
+
 }
-#botao{
-  
-    height: 30px;
-    width: 250px;
+
+#botao {
+
+    height: 2.5vw;
+    width: 20vw;
     background-color: rgb(45, 28, 93);
     color: white;
-    font-size: 20px;
-    border-radius: 10px;
+    font-size: 1.5vw;
+    border-radius: 1vw;
 
 }
-#botao:hover{
+
+#botao:hover {
     transform: scale(1.1);
     transition: transform 0.4s ease-in-out;
 }
-#cadastro2 ul{
+
+#cadastro2 ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    margin-right: 50px;
-    font-size: 20px;
+    margin-right: 3.5vw;
+    font-size: 1.5vw;
 }
-#logados{
-    margin-right: 190px;
-    margin-bottom: 20px;
+
+#logados {
+    margin-right: 15vw;
+    margin-bottom: 1.5vw;
+    font-size: 1.5vw;
 }
-footer{
-    
+
+footer {
+
     display: flex;
     justify-content: center;
     background-color: rgb(238, 230, 141);
-    font-size: 20px;
-    margin-top: 30px;
-    padding: 30px;
+    font-size: 2vw;
+    margin-top: 3vw;
+    padding: 2.5vw;
 }
