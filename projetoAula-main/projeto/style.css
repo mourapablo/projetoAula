@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(180, 177, 174);
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+header{
+    background-color: transparent;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    
+
+   
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+    
+   
+    
+}
+header ul li a{
+   padding: 10px;
+   text-decoration: none;
+   margin-right: 20px;
+ 
+}
+.login{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white; 
+    width: 30%;
+    height: 450px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    margin:10px auto 10px;
+    box-shadow: 10PX 10PX 10PX 5PX black;
+    
+   
+    
+}
+
+
+#nome{
+    width: 80%;
+    height: 50px;
+   
+    
+}
+#senha{
+    width: 80%;
+    height: 50px;
+ 
+    
+}
+#botao{
+  
+    height: 30px;
+    width: 250px;
+    background-color: rgb(45, 28, 93);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+#botao:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s ease-in-out;
+}
+#cadastro2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    font-size: 20px;
+}
+#logados{
+    margin-right: 190px;
+    margin-bottom: 20px;
+}
+footer{
+    
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 230, 141);
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 30px;
+}
