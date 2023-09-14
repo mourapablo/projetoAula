@@ -1,0 +1,162 @@
+body {
+    background-color: rgb(180, 177, 174);
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+header {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+
+
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin-right: 2.5vw;
+
+}
+
+header ul li a {
+    padding: 1vw;
+    text-decoration: none;
+    margin-right: 1.5vw;
+    font-size: 1.6vw;
+
+}
+
+.login {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 34vw;
+    height: 33vw;
+    text-align: center;
+    margin: 0;
+    padding: 1vw;
+    margin: 1vw auto 1vw;
+    box-shadow: 1vw 1vw 1vw 0.5vw black;
+    font-size: 1.5vw;
+}
+#olho{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+.fas fa-eye-slash{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+
+
+#nome {
+    width: 25vw;
+    height: 4vw;
+    font-size: 1vw;
+    margin-right: 0.8vw;
+
+
+
+}
+
+#senha {
+    width: 25vw;
+    height: 4vw;
+    font-size: 1vw;
+    margin-left: 2.5vw;
+
+
+}
+
+#botao {
+
+    height: 2.5vw;
+    width: 20vw;
+    background-color: rgb(45, 28, 93);
+    color: white;
+    font-size: 1.5vw;
+    border-radius: 1vw;
+
+}
+
+#botao:hover {
+    transform: scale(1.1);
+    transition: transform 0.4s ease-in-out;
+}
+.paragrafo{
+    display: flex;
+    align-items: center;
+}
+.paragrafo hr{
+    background-color: rgb(105, 105, 48);
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 0.1vw;
+    border: none;
+
+}
+.paragrafo p{
+    align-items: center;
+    font-size: 1vw;
+}
+
+.redes button{
+    width: 30vw;
+    height: 2.5vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
+    font-size:1.5vw ;
+
+}
+
+#face{
+    background-color: #4267b2;
+    width: 30vw;
+    height: 2.5vw;
+
+   
+}
+
+
+#google{
+    background-color:white;
+    width: 30vw;
+    height: 2.5vw;
+}
+
+#cadastro2 ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3.5vw;
+    font-size: 1.5vw;
+}
+
+#logados {
+    margin-right: 15vw;
+    margin-bottom: 1.5vw;
+    font-size: 1.5vw;
+}
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 230, 141);
+    font-size: 2vw;
+    margin-top: 3vw;
+    padding: 2.5vw;
+}
