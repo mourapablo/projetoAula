@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(180, 177, 174);
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
     width: 100vw;
     overflow-x: hidden;
     margin: 0;
@@ -14,9 +15,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    background-color: rgb(171, 171, 171);
+    transition: background-color 2s ease-in-out;
+    box-shadow: 2px 2px 10px 10px black;
+}
 
-
-
+header:hover{
+    background-color: rgb(213, 213, 241);
 }
 
 header ul {
@@ -37,27 +42,35 @@ header ul li a {
 .login {
 
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: center;
-    background-color: white;
-    width: 34vw;
-    height: 33vw;
+    align-items: center;
+    background-color: rgba(80, 56, 240, 0.572);
+    background-size: cover;
+    transition: background-color 4s ease-in-out;
+    width: 50vw;
+    height: 40vw;
     text-align: center;
     margin: 0;
+    
     padding: 1vw;
-    margin: 1vw auto 1vw;
+    margin: 2vw auto 1vw;
     box-shadow: 1vw 1vw 1vw 0.5vw black;
     font-size: 1.5vw;
 }
-
-
-
+.login:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.login img{
+    width: 10vw;
+    height: 10vw;
+}
 
 #nome {
     width: 25vw;
     height: 4vw;
     font-size: 1vw;
-    margin-right: 0.8vw;
+    margin-right: 0.4vw;
 
 
 
@@ -68,18 +81,42 @@ header ul li a {
     height: 4vw;
     font-size: 1vw;
     margin-left: 2.5vw;
-
-
+}
+#cadastro2{
+    
+    width: 85%;
+    
+}
+#cadastro2 ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 65px;
+    list-style: none;
+    
+    
+}
+#cadastro2 ul li a{
+    color: white;
 }
 
+
+
+#botao-acessar{
+    display: flex;
+    align-items: center;
+    
+}
 #botao {
 
     height: 2.5vw;
-    width: 20vw;
-    background-color: rgb(45, 28, 93);
-    color: white;
-    font-size: 1.5vw;
-    border-radius: 1vw;
+    width: 25vw;
+    background-color: rgb(180, 177, 174);
+    color: rgb(0, 0, 0);
+    font-size: 1.3vw;
+    
+    align-items: center;
+    
+  
 
 }
 
@@ -87,26 +124,72 @@ header ul li a {
     transform: scale(1.1);
     transition: transform 0.4s ease-in-out;
 }
-
-#cadastro2 ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 3.5vw;
-    font-size: 1.5vw;
+#botao .icon-before i {
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+#botao  .icon-before span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+#botao-facebook {
+   
+display: flex;
+align-items: center;
+}
+#facebook{
+    align-items: center;
+    height: 2.5vw;
+    width: 25vw;
+    background-color: rgb(59, 89, 152);
+    color: white;
+    font-size: 1.3vw;
+   
+    align-items: center;
+}
+#facebook:hover {
+    transform: scale(1.1);
+    transition: transform 0.4s ease-in-out;
+}
+#facebook .icon-before{
+    margin-left: 3.6vw;
+    margin-right: 6.5vw;
 }
 
-#logados {
-    margin-right: 15vw;
-    margin-bottom: 1.5vw;
-    font-size: 1.5vw;
+#botao-google{
+   display: flex;
+   align-items: center;
+
 }
+
+#google{
+    align-items: center;
+    height: 2.5vw;
+    width: 25vw;
+    background-color: #db4a39;
+    color: white;
+    font-size: 1.3vw;
+    
+    align-items: center;
+}
+#google:hover{
+    transform: scale(1.1);
+    transition: transform 0.4s ease-in-out;
+}
+#google .icon-before{
+    margin-left: 3.4vw;
+    margin-right: 7.8vw;
+}
+
+
 
 footer {
 
     display: flex;
     justify-content: center;
-    background-color: rgb(238, 230, 141);
+    background-color: white;
     font-size: 2vw;
     margin-top: 3vw;
     padding: 2.5vw;

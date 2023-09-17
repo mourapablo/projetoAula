@@ -24,33 +24,36 @@
     </header>
 
         <section class="login">
-            <h2>LOGIN</h2>
-            <div>
+           <img src="img/logo (3).png" alt="">
+           
+                <div id="formulario">
             <label for="nome"></label><br><br>
             <input type="text" name="nome" id="nome" placeholder="NOME DO USUÁRIO:" height="50px">
             <label for="senha"></label><br><br>
             <input type="password" name="senha" id="senha" placeholder="DIGITE SUA SENHA:">
             <button id="olho"><i class="fas fa-eye-slash"></i></button>
-
-
-            </div>
-            <div id="logados">
-                <input type="checkbox" name="logado" id="logado">
-                <label for="logado">Manter Logado</label>
-            </div>
-            <div>
-                <input type="button" value="Acessar" id="botao" onclick="acessar()">
-            </div>
+            </div><br>
             <div id="cadastro2">
                 <ul>
-                    <li><a href="">Esqueceu sua Senha?</a></li>
-                    <li><a href="">Criar Conta</a></li>
+                <li><a href="">Esqueceu a senha?</a></li>
+                <li><a href="">Criar Conta?</a></li>
                 </ul>
             </div>
+         
+            <div id="botao-acessar">
+                <button id="botao" class="icon-before"><i class="fa-regular fa-user"></i><span class="icon-before">Login</span></button>
+            </div><br>
+            <div id="botao-facebook">
+                <button  id="facebook" class="icon-before"><i class="fa-brands fa-facebook-f" style="color: #f7f9fd;"></i><span class="icon-before">Login com o Facebook</span></button>
+            </div><br>
+            <div id="botao-google">
+               <button id="google" class="icon-before"><i class="fa-brands fa-google-plus-g" style="color: #e9ecf1;"></i><span class="icon-before">login com o Google</span></button>
+            </div>
+      
         </section>
-     
+     <footer>
         <i class="fa-solid fa-eye"></i>
-
+     </footer>
     <script src="main.js"></script>
 </body>
 </html>
